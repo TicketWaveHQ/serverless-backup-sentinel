@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "serverless-backup-sentinel"
+abstract: >-
+  A zero-dependency Python function that checks, from outside, that a recent
+  backup exists in S3-compatible object storage, and alarms by email (Scaleway
+  Transactional Email) or webhook when the newest backup is stale, missing,
+  too small or unreadable. It sends a weekly proof-of-life message.
+authors:
+  - name: "TicketWave HQ Ltd"
+    website: "https://ticketwavehq.com"
+version: "1.0.0"
+date-released: "2026-11-10"
+license: MIT
+repository-code: "https://github.com/TicketWaveHQ/serverless-backup-sentinel"
+keywords:
+  - backup
+  - monitoring
+  - serverless
+  - scaleway
+  - s3
+  - sigv4
